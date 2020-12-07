@@ -13,6 +13,7 @@ function App() {
     <Router>
     <div className="App">
       <Nav />
+      <Route exact path="/" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/portfolio/getmeoutofhere" component={GetMeOut} />
       <Route exact path="/portfolio/quizzinc" component={Quizz} />
