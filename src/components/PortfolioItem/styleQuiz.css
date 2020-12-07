@@ -1,0 +1,30 @@
+.aboutContainer {
+width: 100%;
+height: 92vh;
+display: flex;
+flex: row;
+color: #d0aa5b;
+}
+.imageContainerQuiz {
+  width: 50%;
+  background-image: url("quizz.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+.bioContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bioContainer p {
+  width: 60%;
+  margin: 0 auto;
+}
+.infoContainer {
+    
+}
+.info-list {
+  list-style: none;
+}
