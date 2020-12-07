@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  background-color: #6b574e;
+}
+header {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #303736;
+  color: #d0aa5b;
+}
+h1 {
+  margin: auto 0 auto 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 200px;
+  margin-right: 100px;
+}
+.nav li a {
+  text-decoration: none;
+  color: #d0aa5b;
+  font-size: 1.4em;
+  margin-left: 20px;
+}
+main{
+  width: 80%;
+  border: 1px black solid;
+  margin: 10% auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-container {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.personal-info-title {
+  text-align: center;  
+  border: 1px black solid; 
+  border-bottom: none;          
+}
+.personal-info {
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+}
+.info-list {
+  list-style: none;
+}
+
+.portfolio-container {
+  width: 800px;
+ margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
