@@ -39,7 +39,7 @@ main{
   flex-direction: column;
   align-items: center;
 }
-.about-container {
+/* .about-container {
   margin: 0 auto;
   width: 60%;
   display: flex;
@@ -72,7 +72,6 @@ main{
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
   padding: 0 4px;
@@ -81,4 +80,4 @@ main{
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-}
+} */
